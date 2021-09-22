@@ -13,18 +13,19 @@ body {
     width: 100%;
     top: 0;
     left: 0;
+    box-shadow: 0 1px;
 }
 .nav {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    max-width: 980px;
+    max-width: 1000px;
     margin: 0px auto;
     
 }
 .logo {
     display: flex;
-    height: 100px;
+    height: 80px;
     width: 150px;
     margin: 10px 10px;
 }
@@ -34,13 +35,18 @@ body {
     margin: 0;
     padding: 0;
 }
+.nav-menu-link:hover{
+    background-color: green;
+    padding: 10px;
+}
 .nav-menu li {
-    padding: 0 15px;
+    padding: 0 10px;
 }
 .nav-menu-link {
-    font-size: 18px;
+    padding: 10px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 120px;
+    line-height: 90px;
     text-transform: uppercase;
 }
 .nav-link {
